@@ -148,6 +148,28 @@ button:hover{
         margin-bottom: 5%;
 }
 
+@media(max-width: 850px){
+    .artists-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+        margin:0 auto;
+    }
+    .artist{
+        width:100%;
+        text-align:center;
+    }
+    .artist img{
+        width:70%;
+        height:70%;
+    }
+    .bio{
+        font-size: 1.5rem;
+        margin: 4%;
+    }
+}
+
 @media(max-width: 500px)    {
     a{
         font-size: 2rem;
