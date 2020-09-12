@@ -23,11 +23,22 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. How would you describe acessibility on the web to someone new to programming?
-2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+Acessiblitly of the web includes the ability for screen readers to read text to people with vision impairments so code must be as semantic as possible with not too many vids and spans as this can be hard for screen readers to interpret. Another acessibility issue is people who cannot for whatever reason, use a mouse. They must use the keyboard to navigate around the page. Semantics is a great help for this. People also use the internet from many different devices. The site needs to be scalable so that it shows up smoothly on any screen size. People may also have a slower internet speed so the site should be be too video laden and images should be compressed.
+
+2. Talk about 3 different things you can do to ensure your website is accessible.
+
+First and foremost, the site needs semantic design. It needs to only use divs and spans for design and control purposes and as sparingly as possible. The site needs to be scalable so that any device or screen size can get the same enjoyable experience and smooth feel. Compressing image so that they don't take up too much data is another way to improve acessibility for those that do not have fast internet.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is a way to store value that can be referenced and retrieved later to use in your programming. It is one of the basic building blocks of Javascript. A wonderful thing about variables is they can be redefined, redeclared and are function scoped. What this means is you can rename the same variable later in your programming and you can change what the variable is. You must watch out though because whatever the variable was used for earlier will change as well if you are in the same function.
+
 4. What is the purpose of using functions in code?
 
-You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
+functions are small blocks of code that are used to perform a specific task. The main reason one would use a function is to avoid repetiton of commands within the program. If the function accomplishes something that you must do multiple times within the program, it is much easier to call the function than rewrite that code again. They are usefull for reducing the size of your program, ensuring that all parts of the program get updated, not just some and will make the program easier to manage.
+
+You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
 
@@ -55,7 +66,7 @@ Navigate to `index.js` and complete the MVP challenges. Note that you need to sc
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Website is responsive at multiple breakpoints and looks good in-between breakpoints because student is using responsive units of measurement where appropriate. Student is using most semantic HTML for each element on page and has included ARIA roles where applicable (More research may be required to impliment ARIA roles)  
+* [ ] Website is responsive at multiple breakpoints and looks good in-between breakpoints because student is using responsive units of measurement where appropriate. Student is using most semantic HTML for each element on page and has included ARIA roles where applicable (More research may be required to impliment ARIA roles)
 * [ ] Student demonstrates and can explain a deep understanding of basic programming concepts, when walking Team Lead through the explaination of their code.
 * [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) - do this seperate from your MVP tasks
 
